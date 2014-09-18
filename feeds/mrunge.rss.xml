@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/mrunge.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 18 Sep 2014 21:16:00 +0200</lastBuildDate><item><title>Workshop Qt</title><link>/qt-workshop.html</link><description>&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+“Schrauben” im Mainframe ein.&lt;/p&gt;
+&lt;p&gt;Um 19.00 Uhr findet ein Workshop, mit dem Titel: &amp;quot;Qt&amp;quot; statt.&lt;/p&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrunge</dc:creator><pubDate>Thu, 18 Sep 2014 21:16:00 +0200</pubDate><guid>tag:,2014-09-18:qt-workshop.html</guid><category>qt</category></item><item><title>Einführung in GIT</title><link>/git-vortrag.html</link><description>&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+“Schrauben” im Mainframe ein.&lt;/p&gt;
+&lt;p&gt;Ab 18.30 Uhr ist Einlass, um 20.00 Uhr findet ein 30 minütiger Vortrag, mit
+dem Titel: “Einführung in git&amp;quot; statt.&lt;/p&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mrunge</dc:creator><pubDate>Thu, 21 Aug 2014 21:16:00 +0200</pubDate><guid>tag:,2014-08-21:git-vortrag.html</guid><category>git</category></item></channel></rss>
