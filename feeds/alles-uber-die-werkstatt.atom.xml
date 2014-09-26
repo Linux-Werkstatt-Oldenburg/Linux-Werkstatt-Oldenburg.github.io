@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="www.linux-werkstatt-oldenburg.de/" rel="alternate"></link><link href="www.linux-werkstatt-oldenburg.de/feeds/alles-uber-die-werkstatt.atom.xml" rel="self"></link><id>www.linux-werkstatt-oldenburg.de/</id><updated>2014-07-05T13:37:00+02:00</updated><entry><title>Was passiert in der Werkstatt?</title><link href="www.linux-werkstatt-oldenburg.de/was-passiert-in-der-werkstatt.html" rel="alternate"></link><updated>2014-07-05T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:www.linux-werkstatt-oldenburg.de,2014-07-05:was-passiert-in-der-werkstatt.html</id><summary type="html">&lt;p&gt;Monatlich lädt die Linux Werkstatt Oldenburg zum gemeinsamen “Schrauben” im Mainframe ein. Es findet immer ein kurzer Vortrag oder Workshop statt. Das Treffen findet am 1. Donnerstag im Monat statt, wenn es sich nicht um einen Feiertag handelt.&lt;/p&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Einsteiger und Profis sind gleichermaßen willkommen, regelmäßige zusätzliche Treffen entwickeln die Werkstatt weiter. Auch hier kann man sich beteiligen. Die Treffen finden im  &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; statt.&lt;/p&gt;
+&lt;p&gt;Hier geht es zur &lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Der Installationsbeschleuniger</title><link href="www.linux-werkstatt-oldenburg.de/der-installationsbeschleuniger.html" rel="alternate"></link><updated>2014-07-04T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:www.linux-werkstatt-oldenburg.de,2014-07-04:der-installationsbeschleuniger.html</id><summary type="html">&lt;p&gt;Die Installation von Linux erfordert zumeist auch den Download von mehreren hundert Megabyte an Daten. Auch wenn von einer DVD oder USB-Stick installiert werden, müssen große Mengen an Updates und gewünschten zusätzlichen Paketen aus dem Internet herunter geladen werden.&lt;/p&gt;
+&lt;p&gt;Um bereits einmal herunter geladene Pakete zwischen zu speichern, gibt es die Proxy Lösung 'apt-cacher'. Für die &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux Werkstatt Oldenburg&lt;/a&gt; wurde ein solcher Proxy im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; installiert. Alle Linux-Distributionen, die das Paketformat APT einsetzen, werden durch diese Lösung beschleunigt. Dies umfasst Debian als auch alle Ubuntu-Varianten wie Mint. &lt;/p&gt;
+&lt;p&gt;Große Teile der Zeit für eine Installation können damit entfallen. Durch den Proxy können 30-45 Minuten Installationszeit bei langsamen Internetverbindungen eingespart werdens.&lt;/p&gt;
+&lt;h5&gt;Einen eigenen Proxy installieren&lt;/h5&gt;
+&lt;p&gt;Auch zuhause kann man solch einen Proxy installieren, ein Einzeiler genügt:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get install apt-cacher-ng
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h5&gt;Den Proxy aktivieren&lt;/h5&gt;
+&lt;p&gt;Der Proxy sollte zu einem möglichst frühen Zeitpunkt in der Distribution eingetragen werden.&lt;/p&gt;
+&lt;p&gt;Dafür  wird die Datei &lt;code&gt;/etc/apt/apt.conf.d/01proxy&lt;/code&gt; mit dem folgenden Inhalt angelegt:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Acquire::http &lt;span class="o"&gt;{&lt;/span&gt; Proxy &lt;span class="s2"&gt;&amp;quot;http://spacegate:3142&amp;quot;&lt;/span&gt;; &lt;span class="o"&gt;}&lt;/span&gt;;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Der folgende Einzeiler wird dafür in ein Terminal kopiert und ausgeführt:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;echo &amp;#39;Acquire::http { Proxy \&amp;quot;http://spacegate:3142\&amp;quot;; };&amp;#39; &amp;gt;/etc/apt/apt.conf.d/01proxy&amp;quot;&lt;/span&gt; | sudo sh
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h5&gt;Den Proxy entfernen&lt;/h5&gt;
+&lt;p&gt;Um diesen Proxy wieder auszutragen, muss die Datei wieder entfernt werden:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo rm /etc/apt/apt.conf.d/01proxy                                                                                                  
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Das ist notwendig, da sonst außerhalb der Linux Werkstatt keine Pakete (auch: Sicherheitsupdates) mehr nachinstalliert werden können.                          &lt;/p&gt;
+&lt;h4&gt;Tipps:&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Um den Proxy verwenden zu können, muss ein Netzwerkanschluss oder das WLAN des &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt;  verwendet werden, nicht das Freifunk Netz.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wer erst einmal eine Linux-Installation ausprobiert und nur die DVD startet, kann über ein Symbol auf dem Desktop die Installation starten. Vor dem Klick sollte der Proxy wie oben beschrieben eingetragen werden, wenn schon während der Insttallation Pakete aus dem Internet geholt werden sollen. Nach der Installation wird das System neu gestartet. Hiernach muss der Proxy erneut wie oben beschrieben eingetragen werden, da auch im Nachgang noch große Mengen an Paketen herunter geladen werden.                                      &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Vor dem Verlassen der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux Werkstatt Oldenburg&lt;/a&gt; muss der Proxy wieder ausgetragen werden!                                                     &lt;/li&gt;
+&lt;/ol&gt;</summary></entry><entry><title>Checkliste für die Linux-Installation</title><link href="www.linux-werkstatt-oldenburg.de/checkliste-fur-die-linux-installation.html" rel="alternate"></link><updated>2014-07-03T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:www.linux-werkstatt-oldenburg.de,2014-07-03:checkliste-fur-die-linux-installation.html</id><summary type="html">&lt;p&gt;In der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux Werkstatt Oldenburg&lt;/a&gt; soll Besuchern geholfen werden, das für sie optimale Linux zu erhalten. Die folgende Checkliste soll dabei helfen, keine wichtigen Schritte für die Installation zu vergessen.&lt;/p&gt;
+&lt;h3&gt;Bevor es losgeht&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sind noch Daten zu sichern?&lt;/li&gt;
+&lt;li&gt;Betriebssysteme oder Dokumente?&lt;/li&gt;
+&lt;li&gt;Mit Clonezilla oder Live-CD Daten von Festplatte sichern&lt;/li&gt;
+&lt;li&gt;Soll die Windows-Installation erhalten bleiben?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Hardwareanalyse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ist eine Hybridplatte (SSHD) eingebaut? Eingeschaltetes SSD-Caching kann zu Datenverlust führen!&lt;/li&gt;
+&lt;li&gt;Ist ein RAID konfiguriert? Datenverlust ist möglich!&lt;/li&gt;
+&lt;li&gt;Welcher Prozessor ist eingebaut?&lt;/li&gt;
+&lt;li&gt;Wie viel Hauptspeicher ist eingebaut?&lt;/li&gt;
+&lt;li&gt;Wie groß ist die Festplatte?&lt;/li&gt;
+&lt;li&gt;Wie viele Festplatten sind vorhanden?&lt;/li&gt;
+&lt;li&gt;Booten über USB oder optisches Laufwerk notwendig?                                                                                &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Welches Linux soll installiert werden?&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardwarevoraussetzung: siehe oben&lt;/li&gt;
+&lt;li&gt;Freie Software?&lt;/li&gt;
+&lt;li&gt;Kenntnistand des Nutzers?                                                                                                         &lt;/li&gt;
+&lt;li&gt;Ziele des Nutzers?                                                                                                                &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Allgemeine Tipps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Installation möglichst immer über LAN vornehmen, nicht WLAN                                                                        &lt;/li&gt;
+&lt;li&gt;UEFI bedeutet immer 64 Bit                                                                                                         &lt;/li&gt;
+&lt;li&gt;UEFI bedeutet GPT statt MBR&lt;/li&gt;
+&lt;li&gt;Boot-Auswahl über F8, F10 oder F12 aufrufen&lt;/li&gt;
+&lt;li&gt;Firmware (BIOS) über F1, F2 oder ENTF aufrufen&lt;/li&gt;
+&lt;li&gt;Installation bricht ab/stockt? Im Bootmenu der Distribution ACPI und/oder APIC ausschalten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Welches Linux beherrscht UEFI und Secure Boot?&lt;/h4&gt;
+&lt;p&gt;Diese Liste ist sicher nicht vollständig und kann nicht mehr aktuell sein, die frühesten Versionen werden aufgeführt: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://fedoraproject.org/de/" title="Fedora"&gt;Fedora 18&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://de.opensuse.org" title="OpenSuse"&gt;OpenSuse 12.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ubuntu.com/" title="Ubuntu"&gt;Ubuntu 12.04.2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Welches Linux beherrscht UEFI ohne Secure Boot?&lt;/h4&gt;
+&lt;p&gt;Diese Liste ist sicher nicht vollständig und kann nicht mehr aktuell sein, die frühesten Versionen werden aufgeführt: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.debian.org/index.de.html" title="Debian"&gt;Debian 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.linuxmint.com/" title="Linux Mint"&gt;Linux Mint 15&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.mageia.org/de/" title="Mageia"&gt;(Mageia 3)&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Windows ist bereits installiert&lt;/h2&gt;
+&lt;p&gt;Windows starten:                                                                                                                     &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In Datenträgerverwaltung prüfen, ob es eine "EFI System Partion" gibt                                                              &lt;/li&gt;
+&lt;li&gt;In Datenträgerverwaltung Platz für Linux schaffen                                                                                  &lt;/li&gt;
+&lt;li&gt;Windows 8: Unter Energiefunktionen "Schnellstart aktivieren" deaktivieren&lt;/li&gt;
+&lt;li&gt;Keine Installation von Linux bei Hybridfestplatten (SSHD)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;UEFI Booteinträge wählen&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows neu starten&lt;/li&gt;
+&lt;li&gt;Beim Klick auf "Neu starten" die Umschalttaste gedrückt halten&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Es ist noch kein Betriebssystem installiert&lt;/h2&gt;
+&lt;p&gt;CSM (BIOS-Emulation) sollte nur noch in Ausnahnefällen  eingeschaltet werden&lt;/p&gt;
+&lt;h4&gt;Platte kleiner als 2 TB?&lt;/h4&gt;
+&lt;p&gt;Windows und Linux per CSM installieren, aber nur, wenn UEFI Probleme macht                                                                                               &lt;/p&gt;
+&lt;h4&gt;Linux kann UEFI UND Secure Boot?&lt;/h4&gt;
+&lt;p&gt;Windows und Linux per UEFI mit Secure Boot installieren                                                                              &lt;/p&gt;
+&lt;h4&gt;Linux kann UEFI?&lt;/h4&gt;
+&lt;p&gt;Secure Boot in der Firmware abschalten, Windows und Linux installieren&lt;/p&gt;
+&lt;h4&gt;Linux kann GPT?&lt;/h4&gt;
+&lt;p&gt;Windows per UEFI und Linux per CSM starten&lt;/p&gt;
+&lt;h4&gt;Es gibt eine zweite Festplatte?&lt;/h4&gt;
+&lt;p&gt;Windows per UEFI und Linux per CSM über Bootloader im MBR der zweien Platte starten&lt;/p&gt;
+&lt;h4&gt;Es ist nur eine Festplatte vorhanden:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Firmware: Secure Boot abschalten, wenn Linux das nicht beherscht, niemals nachträglich einschalten&lt;/li&gt;
+&lt;li&gt;DVD oder USB-Stick mit UEFI-Fähigkeit erzeugen (geht nur bei 64 Bit), keine Multi-Boot-DVD verwenden&lt;/li&gt;
+&lt;li&gt;Bios Bootmenu aufrufen und den UEFI-Eintrag(!) des Mediums wählen, nicht den normalen&lt;/li&gt;
+&lt;li&gt;Installieren&lt;/li&gt;
+&lt;li&gt;Linux erkennt Windows Installation hierbei nicht&lt;/li&gt;
+&lt;li&gt;Bei Partitionierung die EFI Bootloader Partition (ESP) wählen (unter /boot/efi als Typ ESP einbinden)&lt;/li&gt;
+&lt;li&gt;Freie Partion mit Swap und / belegen&lt;/li&gt;
+&lt;li&gt;Im Bios Boot-Reihenfolge auf das Linux-Label legen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Es sind zwei Festplatten vorhanden&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;In der Firmware CSM einschalten, wenn Platte kleiner 2TB&lt;/li&gt;
+&lt;li&gt;Linux klassisch auf der zweiten Platte installieren&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Es ist eine Hybrid-Festplatte vorhanden und Windows ist installiert&lt;/h4&gt;
+&lt;p&gt;Das SSHD-Caching muss komplette ausgeschaltet werden. Wie das geht, hängt halt davon ab, wie das SSD-Caching funktioniert. Wenn es der Mainboard-Chipsatz macht, kann es sein, dass man es in der Firmware deaktivieren muss. Wenn es eine Windows-Lösung ist, dann sollte es reichen, das Ganze unter Windows zu deaktivieren.&lt;/p&gt;
+&lt;h2&gt;UEFI Booteinträge&lt;/h2&gt;
+&lt;h3&gt;Welche Einträge existieren?&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo efibootmgr
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Reihenfolge verändern&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo efibootmgr --bootorder 2,0
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Einen neuen Eintrag anlegen&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;sudo efibootmgr --create --label &lt;span class="s1"&gt;&amp;#39;Linux&amp;#39;&lt;/span&gt; --loader &lt;span class="s1"&gt;&amp;#39;\efi\linux\grubx64.efi&amp;#39;&lt;/span&gt; 
+&lt;/pre&gt;&lt;/div&gt;</summary></entry></feed>
