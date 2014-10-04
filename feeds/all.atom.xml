@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-09-18T21:16:00+02:00</updated><entry><title>Workshop Qt</title><link href="/qt-workshop.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>turboallegro</name></author><id>tag:,2014-09-18:qt-workshop.html</id><summary type="html">&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-10-03T14:37:00+02:00</updated><entry><title>Das Logo, Flyer und Werbematerial</title><link href="/das-logo-flyer-und-werbematerial.html" rel="alternate"></link><updated>2014-10-03T14:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-10-03:das-logo-flyer-und-werbematerial.html</id><summary type="html">&lt;p&gt;Die Linux-Werkstatt hat ein eigenes Logo und auch einen Flyer für großformatige Ausdrucke in einem skalierbaren Format. Die folgenden Dateien können für Werbezwecke verwendet werden.&lt;/p&gt;
+&lt;p&gt;Flyer
+&lt;img src="/images/lwo-flyer-vector.svg" width="150px"/&gt;
+Logo
+&lt;img src="/images/lwo-logo-vector.svg" width="150"/&gt;&lt;/p&gt;
+&lt;p&gt;Logo 100x100
+&lt;img src="/images/lwo-logo-100x100.png" width="100px" /&gt;
+Logo 1150x1150
+&lt;img src="/images/lwo-logo-1150x1150.png" width="100px"/&gt;
+Logo 1280x1024
+&lt;img src="/images/lwo-logo-1280x1024.png" width="100px"/&gt;
+Logo 800x640
+&lt;img src="/images/lwo-logo-800x640.png" width="100px"/&gt;
+QR-Code
+&lt;img src="/images/lwo-qr.png" /&gt;&lt;/p&gt;</summary></entry><entry><title>Was passiert in der Werkstatt?</title><link href="/was-passiert-in-der-werkstatt.html" rel="alternate"></link><updated>2014-10-02T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-10-02:was-passiert-in-der-werkstatt.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;&lt;/p&gt;
+&lt;p&gt;Monatlich lädt die Linux Werkstatt Oldenburg zum gemeinsamen “Schrauben” im Mainframe ein. Weiterhin steht immer ein kurzer Vortrag oder Workshop auf dem Programm. Das Treffen findet am 1. Donnerstag im Monat statt, wenn es sich nicht um einen Feiertag handelt.&lt;/p&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Einsteiger und Profis sind gleichermaßen willkommen, regelmäßige zusätzliche Treffen entwickeln die Werkstatt weiter. Auch hier kann man sich beteiligen. Die Treffen finden im  &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; statt.&lt;/p&gt;
+&lt;p&gt;Hier geht es zur &lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Workshop Qt</title><link href="/qt-workshop.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>turboallegro</name></author><id>tag:,2014-09-18:qt-workshop.html</id><summary type="html">&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein Workshop, mit dem Titel: &amp;quot;Qt&amp;quot; statt.&lt;/p&gt;
 &lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
 &lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
-</summary><category term="qt"></category></entry><entry><title>Was passiert in der Werkstatt?</title><link href="/was-passiert-in-der-werkstatt.html" rel="alternate"></link><updated>2014-09-17T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-09-17:was-passiert-in-der-werkstatt.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;&lt;/p&gt;
-&lt;p&gt;Monatlich lädt die Linux Werkstatt Oldenburg zum gemeinsamen “Schrauben” im Mainframe ein. Weiterhin steht immer ein kurzer Vortrag oder Workshop auf dem Programm. Das Treffen findet am 1. Donnerstag im Monat statt, wenn es sich nicht um einen Feiertag handelt.&lt;/p&gt;
-&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
-&lt;p&gt;Einsteiger und Profis sind gleichermaßen willkommen, regelmäßige zusätzliche Treffen entwickeln die Werkstatt weiter. Auch hier kann man sich beteiligen. Die Treffen finden im  &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; statt.&lt;/p&gt;
-&lt;p&gt;Hier geht es zur &lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Einführung in GIT</title><link href="/git-vortrag.html" rel="alternate"></link><updated>2014-08-21T21:16:00+02:00</updated><author><name>mrunge</name></author><id>tag:,2014-08-21:git-vortrag.html</id><summary type="html">&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+</summary><category term="qt"></category></entry><entry><title>Einführung in GIT</title><link href="/git-vortrag.html" rel="alternate"></link><updated>2014-08-21T21:16:00+02:00</updated><author><name>mrunge</name></author><id>tag:,2014-08-21:git-vortrag.html</id><summary type="html">&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Ab 18.30 Uhr ist Einlass, um 20.00 Uhr findet ein 30 minütiger Vortrag, mit
 dem Titel: “Einführung in git&amp;quot; statt.&lt;/p&gt;
