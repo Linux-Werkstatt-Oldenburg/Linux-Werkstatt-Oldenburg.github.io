@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/vortragsankundigung.atom.xml" rel="self"></link><id>/</id><updated>2014-09-18T21:16:00+02:00</updated><entry><title>Workshop Qt</title><link href="/qt-workshop.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>turboallegro</name></author><id>tag:,2014-09-18:qt-workshop.html</id><summary type="html">&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/vortragsankundigung.atom.xml" rel="self"></link><id>/</id><updated>2014-10-04T21:13:00+02:00</updated><entry><title>Installationsparty</title><link href="/installationsparty.html" rel="alternate"></link><updated>2014-10-04T21:13:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-10-04:installationsparty.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+Am &lt;strong&gt;06.11.2014&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen 
+“Schrauben” im Mainframe ein.&lt;/p&gt;
+&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass, es findet eine Installationsparty statt, in der unter Anleitung beliebige Linux-Distributionen installiert werden können.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UEFI / Secure Boot Analyse&lt;/li&gt;
+&lt;li&gt;&lt;a href="/checkliste-fur-die-linux-installation.html"&gt;Tipps zur Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Nutzung des &lt;a href="/der-installationsbeschleuniger.html"&gt;Installationsbeschleunigers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ein USB-Stick oder eine DVD für die Installation sollte mitgebracht werden! Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;</summary></entry><entry><title>Workshop Qt</title><link href="/qt-workshop.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>turboallegro</name></author><id>tag:,2014-09-18:qt-workshop.html</id><summary type="html">&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein Workshop, mit dem Titel: &amp;quot;Qt&amp;quot; statt.&lt;/p&gt;
 &lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
