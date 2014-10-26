@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/mrunge.atom.xml" rel="self"></link><id>/</id><updated>2014-09-18T21:16:00+02:00</updated><entry><title>Workshop Qt</title><link href="/qt-workshop.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>mrunge</name></author><id>tag:,2014-09-18:qt-workshop.html</id><summary type="html">&lt;p&gt;Am 02.10.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
-“Schrauben” im Mainframe ein.&lt;/p&gt;
-&lt;p&gt;Um 19.00 Uhr findet ein Workshop, mit dem Titel: &amp;quot;Qt&amp;quot; statt.&lt;/p&gt;
-&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
-&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
-</summary><category term="qt"></category></entry><entry><title>Einführung in GIT</title><link href="/git-vortrag.html" rel="alternate"></link><updated>2014-08-21T21:16:00+02:00</updated><author><name>mrunge</name></author><id>tag:,2014-08-21:git-vortrag.html</id><summary type="html">&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/mrunge.atom.xml" rel="self"></link><id>/</id><updated>2014-08-21T21:16:00+02:00</updated><entry><title>Einführung in GIT</title><link href="/git-vortrag.html" rel="alternate"></link><updated>2014-08-21T21:16:00+02:00</updated><author><name>mrunge</name></author><id>tag:,2014-08-21:git-vortrag.html</id><summary type="html">&lt;p&gt;Am 04.09.2014 lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Ab 18.30 Uhr ist Einlass, um 20.00 Uhr findet ein 30 minütiger Vortrag, mit
 dem Titel: “Einführung in git&amp;quot; statt.&lt;/p&gt;
