@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Sat, 06 Dec 2014 21:13:00 +0100</lastBuildDate><item><title>Treffen mit Vortrag über LAMP</title><link>/treffen-mit-vortrag-uber-lamp.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 08 Jan 2015 21:13:00 +0100</lastBuildDate><item><title>Vortrag: Akku Laufzeit verlängern</title><link>/vortrag-akku-laufzeit-verlangern.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+Am &lt;strong&gt;05.02.2014&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
+“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
+&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag LAMP startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. Der Vortrag beschreibt, wie die Laufzeit des Akkus ermittelt und verbessert werden kann. &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Welche Kapazität / Alterserscheinungen hat der Akku?&lt;/li&gt;
+&lt;li&gt;Wie viel Strom verbraucht das mobile Gerät?&lt;/li&gt;
+&lt;li&gt;Wie optimiere ich den Laptop? &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Thu, 08 Jan 2015 21:13:00 +0100</pubDate><guid>tag:,2015-01-08:vortrag-akku-laufzeit-verlangern.html</guid></item><item><title>Treffen mit Vortrag über LAMP</title><link>/treffen-mit-vortrag-uber-lamp.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
 Am &lt;strong&gt;08.01.2014&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
 “Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass, der Vortrag über LAMP startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. Der Vortrag beschreibt ein Linux System, welches aus dem Webserver Apache, der Datenbank MySQL und Programmiersprache PHP besteht. Damit können auf dem Linux System beliebte Webanwendungen wie Wordpress oder Joomla installiert werden. Das System wird nicht für den Betrieb im Internet, sondern zu internen Zwecken konfiguriert.&lt;/p&gt;
@@ -37,44 +47,7 @@ Am &lt;strong&gt;06.11.2014&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg w
 &lt;p&gt;&lt;img src="/images/lwo-logo-1280x1024.png" width="100px" align=middle/&gt;Logo 1280x1024
 &lt;img src="/images/lwo-logo-800x640.png" width="100px" align=middle/&gt;Logo 800x600&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/lwo-qr.png" align=middle /&gt; QR-Code&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Fri, 03 Oct 2014 14:37:00 +0200</pubDate><guid>tag:,2014-10-03:das-logo-flyer-und-werbematerial.html</guid></item><item><title>Der Installationsbeschleuniger</title><link>/der-installationsbeschleuniger.html</link><description>&lt;p&gt;Die Installation von Linux erfordert zumeist auch den Download von mehreren hundert Megabyte an Daten. Auch wenn von einer DVD oder USB-Stick installiert werden, müssen große Mengen an Updates und gewünschten zusätzlichen Paketen aus dem Internet herunter geladen werden.&lt;/p&gt;
-&lt;p&gt;Um bereits einmal herunter geladene Pakete zwischen zu speichern, gibt es die Proxy Lösung 'apt-cacher'. Für die &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; wurde ein solcher Proxy im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; installiert. Alle Linux-Distributionen, die das Paketformat APT einsetzen, werden durch diese Lösung beschleunigt. Dies umfasst Debian als auch alle Ubuntu-Varianten wie Mint. &lt;/p&gt;
-&lt;p&gt;Große Teile der Zeit für eine Installation können damit entfallen. Durch den Proxy können 30-45 Minuten Installationszeit bei langsamen Internetverbindungen eingespart werdens.&lt;/p&gt;
-&lt;h5&gt;Einen eigenen Proxy installieren&lt;/h5&gt;
-&lt;p&gt;Auch zuhause kann man solch einen Proxy installieren, ein Einzeiler genügt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get install apt-cacher-ng
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h5&gt;Den Proxy aktivieren&lt;/h5&gt;
-&lt;p&gt;Der Proxy sollte zu einem möglichst frühen Zeitpunkt in der Distribution eingetragen werden.&lt;/p&gt;
-&lt;p&gt;Dafür  wird die Datei &lt;code&gt;/etc/apt/apt.conf.d/01proxy&lt;/code&gt; mit dem folgenden Inhalt angelegt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;Acquire::http &lt;span class="o"&gt;{&lt;/span&gt; Proxy &lt;span class="s2"&gt;&amp;quot;http://spacegate:3142&amp;quot;&lt;/span&gt;; &lt;span class="o"&gt;}&lt;/span&gt;;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Der folgende Einzeiler wird dafür in ein Terminal kopiert und ausgeführt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;echo &amp;#39;Acquire::http { Proxy \&amp;quot;http://spacegate:3142\&amp;quot;; };&amp;#39; &amp;gt;/etc/apt/apt.conf.d/01proxy&amp;quot;&lt;/span&gt; | sudo sh
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h5&gt;Den Proxy entfernen&lt;/h5&gt;
-&lt;p&gt;Um diesen Proxy wieder auszutragen, muss die Datei wieder entfernt werden:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo rm /etc/apt/apt.conf.d/01proxy
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Das ist notwendig, da sonst außerhalb der Linux-Werkstatt keine Pakete (auch: Sicherheitsupdates) mehr nachinstalliert werden können.                          &lt;/p&gt;
-&lt;h4&gt;Tipps:&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Um den Proxy verwenden zu können, muss ein Netzwerkanschluss oder das WLAN des &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt;  verwendet werden, nicht das Freifunk Netz.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wer erst einmal eine Linux-Installation ausprobiert und nur die DVD startet, kann über ein Symbol auf dem Desktop die Installation starten. Vor dem Klick sollte der Proxy wie oben beschrieben eingetragen werden, wenn schon während der Insttallation Pakete aus dem Internet geholt werden sollen. Nach der Installation wird das System neu gestartet. Hiernach muss der Proxy erneut wie oben beschrieben eingetragen werden, da auch im Nachgang noch große Mengen an Paketen herunter geladen werden.                                      &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Vor dem Verlassen der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; muss der Proxy wieder ausgetragen werden!                                                     &lt;/li&gt;
-&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Fri, 04 Jul 2014 13:37:00 +0200</pubDate><guid>tag:,2014-07-04:der-installationsbeschleuniger.html</guid></item><item><title>Checkliste für die Linux-Installation</title><link>/checkliste-fur-die-linux-installation.html</link><description>&lt;p&gt;In der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; soll Besuchern geholfen werden, das für sie optimale Linux zu erhalten. Die folgende Checkliste soll dabei helfen, keine wichtigen Schritte für die Installation zu vergessen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/lwo-qr.png" align=middle /&gt; QR-Code&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Fri, 03 Oct 2014 14:37:00 +0200</pubDate><guid>tag:,2014-10-03:das-logo-flyer-und-werbematerial.html</guid></item><item><title>Checkliste für die Linux-Installation</title><link>/checkliste-fur-die-linux-installation.html</link><description>&lt;p&gt;In der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; soll Besuchern geholfen werden, das für sie optimale Linux zu erhalten. Die folgende Checkliste soll dabei helfen, keine wichtigen Schritte für die Installation zu vergessen.&lt;/p&gt;
 &lt;h3&gt;Bevor es losgeht&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sind noch Daten zu sichern?&lt;/li&gt;

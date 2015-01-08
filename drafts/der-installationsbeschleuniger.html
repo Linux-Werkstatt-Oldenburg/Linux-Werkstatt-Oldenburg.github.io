@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+        <meta charset="utf-8" />
+        <title>Der Installationsbeschleuniger</title>
+        <link rel="stylesheet" href="../theme/css/main.css" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Linux-Werkstatt Oldenburg Atom Feed" />
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+		<img src="/images/lwo-logo-vector.svg" width="150px" align="right" />
+                <h1><a href="../">Linux-Werkstatt Oldenburg </a></h1>
+                <nav><ul>
+                    <li class="active"><a href="../category/alles-uber-die-werkstatt.html">Alles über die Werkstatt</a></li>
+                    <li><a href="../category/termine-und-treffen.html">Termine und Treffen</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="../drafts/der-installationsbeschleuniger.html" rel="bookmark"
+           title="Permalink to Der Installationsbeschleuniger">Der Installationsbeschleuniger</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2014-07-04T13:37:00">
+                Fr, 04. Juli 2014
+        </abbr>
+
+        <address class="vcard author">
+                Von <a class="url fn" href="../author/fraslo.html">fraslo</a>
+        </address>
+<p>In <a href="../category/alles-uber-die-werkstatt.html">Alles über die Werkstatt</a>. </p>
+
+</footer><!-- /.post-info -->      <p>Die Installation von Linux erfordert zumeist auch den Download von mehreren hundert Megabyte an Daten. Auch wenn von einer DVD oder USB-Stick installiert werden, müssen große Mengen an Updates und gewünschten zusätzlichen Paketen aus dem Internet herunter geladen werden.</p>
+<p>Um bereits einmal herunter geladene Pakete zwischen zu speichern, gibt es die Proxy Lösung 'apt-cacher'. Für die <a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg">Linux-Werkstatt Oldenburg</a> wurde ein solcher Proxy im <a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe">Hackspace Oldenburg 'Mainframe'</a> installiert. Alle Linux-Distributionen, die das Paketformat APT einsetzen, werden durch diese Lösung beschleunigt. Dies umfasst Debian als auch alle Ubuntu-Varianten wie Mint. </p>
+<p>Große Teile der Zeit für eine Installation können damit entfallen. Durch den Proxy können 30-45 Minuten Installationszeit bei langsamen Internetverbindungen eingespart werdens.</p>
+<h5>Einen eigenen Proxy installieren</h5>
+<p>Auch zuhause kann man solch einen Proxy installieren, ein Einzeiler genügt:</p>
+<div class="highlight"><pre>sudo apt-get install apt-cacher-ng
+</pre></div>
+
+
+<h5>Den Proxy aktivieren</h5>
+<p>Der Proxy sollte zu einem möglichst frühen Zeitpunkt in der Distribution eingetragen werden.</p>
+<p>Dafür  wird die Datei <code>/etc/apt/apt.conf.d/01proxy</code> mit dem folgenden Inhalt angelegt:</p>
+<div class="highlight"><pre>Acquire::http <span class="o">{</span> Proxy <span class="s2">&quot;http://spacegate:3142&quot;</span>; <span class="o">}</span>;
+</pre></div>
+
+
+<p>Der folgende Einzeiler wird dafür in ein Terminal kopiert und ausgeführt:</p>
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;echo &#39;Acquire::http { Proxy \&quot;http://spacegate:3142\&quot;; };&#39; &gt;/etc/apt/apt.conf.d/01proxy&quot;</span> | sudo sh
+</pre></div>
+
+
+<h5>Den Proxy entfernen</h5>
+<p>Um diesen Proxy wieder auszutragen, muss die Datei wieder entfernt werden:</p>
+<div class="highlight"><pre>sudo rm /etc/apt/apt.conf.d/01proxy
+</pre></div>
+
+
+<p>Das ist notwendig, da sonst außerhalb der Linux-Werkstatt keine Pakete (auch: Sicherheitsupdates) mehr nachinstalliert werden können.                          </p>
+<h4>Tipps:</h4>
+<ol>
+<li>
+<p>Um den Proxy verwenden zu können, muss ein Netzwerkanschluss oder das WLAN des <a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe">Hackspace Oldenburg 'Mainframe'</a>  verwendet werden, nicht das Freifunk Netz.</p>
+</li>
+<li>
+<p>Wer erst einmal eine Linux-Installation ausprobiert und nur die DVD startet, kann über ein Symbol auf dem Desktop die Installation starten. Vor dem Klick sollte der Proxy wie oben beschrieben eingetragen werden, wenn schon während der Insttallation Pakete aus dem Internet geholt werden sollen. Nach der Installation wird das System neu gestartet. Hiernach muss der Proxy erneut wie oben beschrieben eingetragen werden, da auch im Nachgang noch große Mengen an Paketen herunter geladen werden.                                      </p>
+</li>
+<li>Vor dem Verlassen der <a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg">Linux-Werkstatt Oldenburg</a> muss der Proxy wieder ausgetragen werden!                                                     </li>
+</ol>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>Links</h2>
+                        <ul>
+                            <li><a href="http://mainframe.io/">Treffpunkt Mainframe</a></li>
+                            <li><a href="http://mainframe.io/contact.de.html">Anfahrtsbeschreibung</a></li>
+                            <li><a href="/pages/impressum.html">Impressum</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>Internet</h2>
+                        <ul>
+                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Diese Homepage verwendet <a href="http://getpelican.com/">Pelican</a>, generiert durch <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>Das Design stammt vom <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a></p>
+        </footer><!-- /#contentinfo -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'linwerold';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+</body>
+</html>

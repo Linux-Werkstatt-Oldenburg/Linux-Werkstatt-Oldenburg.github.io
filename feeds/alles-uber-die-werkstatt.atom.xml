@@ -15,44 +15,7 @@
 &lt;p&gt;&lt;img src="/images/lwo-logo-1280x1024.png" width="100px" align=middle/&gt;Logo 1280x1024
 &lt;img src="/images/lwo-logo-800x640.png" width="100px" align=middle/&gt;Logo 800x600&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/lwo-qr.png" align=middle /&gt; QR-Code&lt;/p&gt;</summary></entry><entry><title>Der Installationsbeschleuniger</title><link href="/der-installationsbeschleuniger.html" rel="alternate"></link><updated>2014-07-04T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-07-04:der-installationsbeschleuniger.html</id><summary type="html">&lt;p&gt;Die Installation von Linux erfordert zumeist auch den Download von mehreren hundert Megabyte an Daten. Auch wenn von einer DVD oder USB-Stick installiert werden, müssen große Mengen an Updates und gewünschten zusätzlichen Paketen aus dem Internet herunter geladen werden.&lt;/p&gt;
-&lt;p&gt;Um bereits einmal herunter geladene Pakete zwischen zu speichern, gibt es die Proxy Lösung 'apt-cacher'. Für die &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; wurde ein solcher Proxy im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; installiert. Alle Linux-Distributionen, die das Paketformat APT einsetzen, werden durch diese Lösung beschleunigt. Dies umfasst Debian als auch alle Ubuntu-Varianten wie Mint. &lt;/p&gt;
-&lt;p&gt;Große Teile der Zeit für eine Installation können damit entfallen. Durch den Proxy können 30-45 Minuten Installationszeit bei langsamen Internetverbindungen eingespart werdens.&lt;/p&gt;
-&lt;h5&gt;Einen eigenen Proxy installieren&lt;/h5&gt;
-&lt;p&gt;Auch zuhause kann man solch einen Proxy installieren, ein Einzeiler genügt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo apt-get install apt-cacher-ng
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h5&gt;Den Proxy aktivieren&lt;/h5&gt;
-&lt;p&gt;Der Proxy sollte zu einem möglichst frühen Zeitpunkt in der Distribution eingetragen werden.&lt;/p&gt;
-&lt;p&gt;Dafür  wird die Datei &lt;code&gt;/etc/apt/apt.conf.d/01proxy&lt;/code&gt; mit dem folgenden Inhalt angelegt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;Acquire::http &lt;span class="o"&gt;{&lt;/span&gt; Proxy &lt;span class="s2"&gt;&amp;quot;http://spacegate:3142&amp;quot;&lt;/span&gt;; &lt;span class="o"&gt;}&lt;/span&gt;;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Der folgende Einzeiler wird dafür in ein Terminal kopiert und ausgeführt:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;echo &amp;#39;Acquire::http { Proxy \&amp;quot;http://spacegate:3142\&amp;quot;; };&amp;#39; &amp;gt;/etc/apt/apt.conf.d/01proxy&amp;quot;&lt;/span&gt; | sudo sh
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h5&gt;Den Proxy entfernen&lt;/h5&gt;
-&lt;p&gt;Um diesen Proxy wieder auszutragen, muss die Datei wieder entfernt werden:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;sudo rm /etc/apt/apt.conf.d/01proxy
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Das ist notwendig, da sonst außerhalb der Linux-Werkstatt keine Pakete (auch: Sicherheitsupdates) mehr nachinstalliert werden können.                          &lt;/p&gt;
-&lt;h4&gt;Tipps:&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Um den Proxy verwenden zu können, muss ein Netzwerkanschluss oder das WLAN des &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt;  verwendet werden, nicht das Freifunk Netz.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wer erst einmal eine Linux-Installation ausprobiert und nur die DVD startet, kann über ein Symbol auf dem Desktop die Installation starten. Vor dem Klick sollte der Proxy wie oben beschrieben eingetragen werden, wenn schon während der Insttallation Pakete aus dem Internet geholt werden sollen. Nach der Installation wird das System neu gestartet. Hiernach muss der Proxy erneut wie oben beschrieben eingetragen werden, da auch im Nachgang noch große Mengen an Paketen herunter geladen werden.                                      &lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;Vor dem Verlassen der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; muss der Proxy wieder ausgetragen werden!                                                     &lt;/li&gt;
-&lt;/ol&gt;</summary></entry><entry><title>Checkliste für die Linux-Installation</title><link href="/checkliste-fur-die-linux-installation.html" rel="alternate"></link><updated>2014-07-03T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-07-03:checkliste-fur-die-linux-installation.html</id><summary type="html">&lt;p&gt;In der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; soll Besuchern geholfen werden, das für sie optimale Linux zu erhalten. Die folgende Checkliste soll dabei helfen, keine wichtigen Schritte für die Installation zu vergessen.&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/lwo-qr.png" align=middle /&gt; QR-Code&lt;/p&gt;</summary></entry><entry><title>Checkliste für die Linux-Installation</title><link href="/checkliste-fur-die-linux-installation.html" rel="alternate"></link><updated>2014-07-03T13:37:00+02:00</updated><author><name>fraslo</name></author><id>tag:,2014-07-03:checkliste-fur-die-linux-installation.html</id><summary type="html">&lt;p&gt;In der &lt;a href="http://www.linux-werkstatt-oldenburg.de/" title="Homepage Linux-Werkstatt Oldenburg"&gt;Linux-Werkstatt Oldenburg&lt;/a&gt; soll Besuchern geholfen werden, das für sie optimale Linux zu erhalten. Die folgende Checkliste soll dabei helfen, keine wichtigen Schritte für die Installation zu vergessen.&lt;/p&gt;
 &lt;h3&gt;Bevor es losgeht&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Sind noch Daten zu sichern?&lt;/li&gt;
