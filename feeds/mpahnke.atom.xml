@@ -42,6 +42,7 @@ dem Titel: “Heim-Netzwerk, Multimedia und Streaming Server&amp;quot; statt. Re
 dem Titel: “Sichere Kommunikation und Verschlüsselung, PrivatSphäre und Sicherheit&amp;quot; statt. Referent: Noch nicht&lt;/p&gt;
 &lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
 &lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
+<<<<<<< HEAD
 </summary><category term="PrivatSphäre"></category><category term="Sicherheit"></category><category term="Verschlüsselung"></category><category term="Sichere Email Kommunikation"></category></entry><entry><title>Einführung in Qt</title><link href="/qt-vortrag.html" rel="alternate"></link><updated>2014-09-18T21:16:00+02:00</updated><author><name>mpahnke</name></author><id>tag:,2014-09-18:qt-vortrag.html</id><summary type="html">&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
@@ -49,3 +50,6 @@ dem Titel: “Workshop Qt&amp;quot; statt.&lt;/p&gt;
 &lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
 &lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
 </summary><category term="qt"></category></entry></feed>
+=======
+</summary><category term="PrivatSphäre"></category><category term="Sicherheit"></category><category term="Verschlüsselung"></category><category term="Sichere Email Kommunikation"></category></entry></feed>
+>>>>>>> 1ebafcdd75b8fc5ee440309827d66c1af0c23eb2
