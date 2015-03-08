@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-02-23T09:00:00+01:00</updated><entry><title>Themenabend und Vortrag zu Blender</title><link href="/themenabend-und-vortrag-zu-blender.html" rel="alternate"></link><updated>2015-02-23T09:00:00+01:00</updated><author><name>mpahnke</name></author><id>tag:,2015-02-23:themenabend-und-vortrag-zu-blender.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
-Am Donnerstag den &lt;strong&gt;05. März 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
-“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
-&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag zum Themenabend startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. &lt;/p&gt;
-&lt;p&gt;An diesem Abend soll es eine Einführung zu Blender geben.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Linux-Werkstatt Oldenburg</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2015-03-08T23:00:00+01:00</updated><entry><title>Rückblick: Themenabend und Vortrag zu Blender</title><link href="/ruckblick-themenabend-und-vortrag-zu-blender.html" rel="alternate"></link><updated>2015-03-08T23:00:00+01:00</updated><author><name>mpahnke</name></author><id>tag:,2015-03-08:ruckblick-themenabend-und-vortrag-zu-blender.html</id><summary type="html">&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+Am Donnerstag den &lt;strong&gt;05. März 2015&lt;/strong&gt; hat die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
+“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; eingeladen.&lt;/p&gt;
+&lt;p&gt;An diesem Abend sollte es eine Einführung zu Blender geben.&lt;/p&gt;
 &lt;p&gt;Blender ist eine freie GPL-lizensierte Open-Source 3D-Grafiksoftware, welche auch im professionellen Umfeld eingesetzt wird.
 Bekannte prominente Videoanimationen sind unter &lt;a href="http://www.blender.org/features/projects" title="Blender Open Projects"&gt;Open Projects&lt;/a&gt; auf der Webseite &lt;a href="http://www.blender.org" title="Link zu Blenderseite"&gt;www.blender.org&lt;/a&gt; des Blenderprojekts zu finden. Beim Kreativität trifft Technik e.V. (KtT) wird Blender übrigens auch für die Modellierung der Objekte für die 3D-Drucker verwendet.&lt;/p&gt;
-&lt;p&gt;Themen an diesem Abend sind u.a.:&lt;/p&gt;
+&lt;p&gt;Themen an diesem Abend waren u.a.:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;3D Grundlagen&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Einführung in die &lt;strong&gt;Benutzeroberfläche&lt;/strong&gt; von Blender&lt;/li&gt;
@@ -14,12 +13,15 @@ Bekannte prominente Videoanimationen sind unter &lt;a href="http://www.blender.o
 &lt;li&gt;&lt;strong&gt;Modifier&lt;/strong&gt; und ihre Anwendung&lt;/li&gt;
 &lt;li&gt;und &lt;strong&gt;Texturing.&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Der Referent ist Hendrik vom KtT.
+&lt;p&gt;Der Referent war Hendrik vom KtT.
 &lt;br&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;/p&gt;
-&lt;p&gt;Wir freuen uns auf einen spannenden Abend.
-&lt;br&gt;
+&lt;p&gt;Es war ein spannender Abend. Und ich übertreibe nicht, wenn ich sage, daß jeder der Anwesenden viel Anregendes mit nach Hause genommen hat.&lt;/p&gt;
+&lt;p&gt;Hier befindet sich &lt;a href="/images/blender.script.png"&gt;das Script&lt;/a&gt;
+  mit den Punkten die an dem Abend besprochen wurden.&lt;/p&gt;
+&lt;p&gt;An dieser Stelle nochmal ein Dank an Hendrik für die spitzenmässige Einführung&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;
 Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Und hier ein Ausblick auf die nächsten Themen und Termine:&lt;/p&gt;
