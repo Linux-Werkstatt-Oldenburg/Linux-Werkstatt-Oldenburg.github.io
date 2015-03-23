@@ -53,12 +53,12 @@
 <h5>Den Proxy aktivieren</h5>
 <p>Der Proxy sollte zu einem möglichst frühen Zeitpunkt in der Distribution eingetragen werden.</p>
 <p>Dafür  wird die Datei <code>/etc/apt/apt.conf.d/01proxy</code> mit dem folgenden Inhalt angelegt:</p>
-<div class="highlight"><pre>Acquire::http <span class="o">{</span> Proxy <span class="s2">&quot;http://spacegate:3142&quot;</span><span class="p">;</span> <span class="o">}</span><span class="p">;</span>
+<div class="highlight"><pre>Acquire::http <span class="o">{</span> Proxy <span class="s2">&quot;http://spacegate:3142&quot;</span>; <span class="o">}</span>;
 </pre></div>
 
 
 <p>Der folgende Einzeiler wird dafür in ein Terminal kopiert und ausgeführt:</p>
-<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;echo &#39;Acquire::http { Proxy \&quot;http://spacegate:3142\&quot;; };&#39; &gt;/etc/apt/apt.conf.d/01proxy&quot;</span> <span class="p">|</span> sudo sh
+<div class="highlight"><pre><span class="nb">echo</span> <span class="s2">&quot;echo &#39;Acquire::http { Proxy \&quot;http://spacegate:3142\&quot;; };&#39; &gt;/etc/apt/apt.conf.d/01proxy&quot;</span> | sudo sh
 </pre></div>
 
 
