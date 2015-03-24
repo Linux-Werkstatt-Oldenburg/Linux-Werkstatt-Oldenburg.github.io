@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/mpahnke.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 23 Feb 2015 09:00:00 +0100</lastBuildDate><item><title>Themenabend und Vortrag zu Blender</title><link>/themenabend-und-vortrag-zu-blender.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/mpahnke.rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 23 Mar 2015 19:50:00 +0100</lastBuildDate><item><title>Themen-Workshop: Heim-Netzwerk, Multimedia und Streaming Server</title><link>/vortrag-home-server.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+Am Donnerstag den &lt;strong&gt;02. April 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
+“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
+&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag zum Themenabend startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. &lt;/p&gt;
+&lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit 
+dem Titel: &lt;strong&gt;Heim-Netzwerk, Multimedia und Streaming Server&lt;/strong&gt; statt.&lt;/p&gt;
+&lt;p&gt;Schwerpunkte sind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;der Aufbau eines Heimnetzwerkes.&lt;/li&gt;
+&lt;li&gt;Installation und Konfiguration eines Musikservers&lt;/li&gt;
+&lt;li&gt;Einbinden von Playern wie VLC und XBMC&lt;/li&gt;
+&lt;li&gt;Videostreaming Server&lt;/li&gt;
+&lt;li&gt;Technologien wie daap (iTunes) uPnP (DLNA) &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Der Referent ist Marc von der Linux-Werkstatt Oldenburg.
+&lt;br&gt;
+&lt;br&gt;
+Wir freuen uns auf einen spannenden Abend.
+&lt;br&gt;
+Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Und hier ein Ausblick auf das nächste Thema mit Termin:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;am &lt;strong&gt;7. Mai 2015&lt;/strong&gt; - Sichere Kommunikation und Verschlüsselung, Privatsphäre und Sicherheit / Referent: Peter Gewald (Chaostreff-OL)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bitte schon mal vormerken ;-)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Mar 2015 19:50:00 +0100</pubDate><guid>tag:,2015-03-23:vortrag-home-server.html</guid><category>Multimedia</category><category>Streaming</category><category>Server</category></item><item><title>Sichere Kommunikation und Verschlüsselung, PrivatSphäre und Sicherheit</title><link>/vortrag-privacy-and-security.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;7. Mai 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+“Schrauben” im Mainframe ein.&lt;/p&gt;
+&lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
+dem Titel: “Sichere Kommunikation und Verschlüsselung, PrivatSphäre und Sicherheit&amp;quot; statt. Referent: Peter Gewald (Chaostreff-OL)&lt;/p&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Mar 2015 19:00:00 +0100</pubDate><guid>tag:,2015-03-23:vortrag-privacy-and-security.html</guid><category>PrivatSphäre</category><category>Sicherheit</category><category>Verschlüsselung</category><category>Sichere Email Kommunikation</category></item><item><title>Themenabend und Vortrag zu Blender</title><link>/themenabend-und-vortrag-zu-blender.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
 Am Donnerstag den &lt;strong&gt;05. März 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
 “Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag zum Themenabend startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. &lt;/p&gt;
@@ -30,19 +64,13 @@ Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/p&gt;
 &lt;p&gt;Bitte schon mal vormerken ;-)&lt;/p&gt;
 &lt;hr /&gt;
 &lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Feb 2015 09:00:00 +0100</pubDate><guid>tag:,2015-02-23:themenabend-und-vortrag-zu-blender.html</guid></item><item><title>Heim-Netzwerk, Multimedia und Streaming Server</title><link>/vortrag-home-server.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;2. April 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Feb 2015 09:00:00 +0100</pubDate><guid>tag:,2015-02-23:themenabend-und-vortrag-zu-blender.html</guid></item><item><title>Heim-Netzwerk, Multimedia und Streaming Server</title><link>/vorschau-home-server.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;2. April 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
 dem Titel: “Heim-Netzwerk, Multimedia und Streaming Server&amp;quot; statt. Referent: Marc&lt;/p&gt;
 &lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
 &lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Feb 2015 08:10:00 +0100</pubDate><guid>tag:,2015-02-23:vortrag-home-server.html</guid><category>Heim-Netzwerk</category><category>Multimedia</category><category>Streaming</category><category>Server</category></item><item><title>Sichere Kommunikation und Verschlüsselung, PrivatSphäre und Sicherheit</title><link>/vortrag-privacy-and-security.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;7. Mai 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
-“Schrauben” im Mainframe ein.&lt;/p&gt;
-&lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
-dem Titel: “Sichere Kommunikation und Verschlüsselung, PrivatSphäre und Sicherheit&amp;quot; statt. Referent: Noch nicht&lt;/p&gt;
-&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
-&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Feb 2015 08:00:00 +0100</pubDate><guid>tag:,2015-02-23:vortrag-privacy-and-security.html</guid><category>PrivatSphäre</category><category>Sicherheit</category><category>Verschlüsselung</category><category>Sichere Email Kommunikation</category></item><item><title>Einführung in Qt</title><link>/qt-vortrag.html</link><description>&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">mpahnke</dc:creator><pubDate>Mon, 23 Feb 2015 08:10:00 +0100</pubDate><guid>tag:,2015-02-23:vorschau-home-server.html</guid><category>Heim-Netzwerk</category><category>Multimedia</category><category>Streaming</category><category>Server</category></item><item><title>Einführung in Qt</title><link>/qt-vortrag.html</link><description>&lt;p&gt;Am 04.09.2014 lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
 dem Titel: “Workshop Qt&amp;quot; statt.&lt;/p&gt;
