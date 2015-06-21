@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 08 Jan 2015 21:13:00 +0100</lastBuildDate><item><title>Vortrag: Akku Laufzeit verlängern</title><link>/vortrag-akku-laufzeit-verlangern.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 21 Jun 2015 18:50:00 +0200</lastBuildDate><item><title>KXStudio - Linux für Musiker</title><link>/kxstudio.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;2. Juli 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+“Schrauben” im Mainframe ein.&lt;/p&gt;
+&lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
+dem Titel: “KXStudio - Linux für Musiker&amp;quot; statt. Referent: Frank (Linux-Werkstatt-Oldenburg)&lt;/p&gt;
+&lt;p&gt;KXStudio:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;verwandelt Debian oder Ubuntu in ein Tonstudio mit Latenzoptimierung&lt;/li&gt;
+&lt;li&gt;erleichtert den Einstieg in die Musikproduktion erheblich.&lt;/li&gt;
+&lt;li&gt;Es sind keine Linux-Kenntnisse erforderlich&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://wiki.ubuntuusers.de/kxstudio"&gt;http://wiki.ubuntuusers.de/kxstudio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="http://kxstudio.sourceforge.net"&gt;http://kxstudio.sourceforge.net&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Rechner können gerne mitgebracht werden. Monitore, Tastaturen, Mäuse, Kabel etc. sind vorhanden, ein Internetzugang per LAN/WLAN ebenfalls.&lt;/p&gt;
+&lt;p&gt;Neue &lt;a class="reference external" href="http://mainframe.io/contact.de.html"&gt;Anfahrt&lt;/a&gt; zum Mainframe am Bahnhofsplatz 10.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Sun, 21 Jun 2015 18:50:00 +0200</pubDate><guid>tag:,2015-06-21:kxstudio.html</guid><category>professional audio production</category><category>vst</category><category>low-latency</category><category>jackd</category><category></category></item><item><title>Vortrag: Akku Laufzeit verlängern</title><link>/vortrag-akku-laufzeit-verlangern.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
 Am &lt;strong&gt;05.02.2014&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
 “Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. Der Vortrag beschreibt, wie die Laufzeit des Akkus ermittelt und verbessert werden kann. &lt;/p&gt;
