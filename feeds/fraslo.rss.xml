@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 05 Jul 2015 15:30:00 +0200</lastBuildDate><item><title>Sommer, Proxy, Sonnenschein</title><link>/sommer-proxy-sonnenschein.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
-Am Donnerstag, den &lt;strong&gt;06. August 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
-“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
-&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!). Ein Vortragsthema steht derzeit nicht fest, allerdings soll der Installationsbeschleuniger (Proxy) offiziell in Betrieb genommen werden.&lt;/p&gt;
-&lt;p&gt;Wir freuen uns auf einen spannenden Abend.
-&lt;br&gt;
-Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/p&gt;
-&lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Sun, 05 Jul 2015 15:30:00 +0200</pubDate><guid>tag:,2015-07-05:sommer-proxy-sonnenschein.html</guid><category>Proxy</category></item><item><title>LibreCAD</title><link>/LibreCAD.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 07 Aug 2015 22:30:00 +0200</lastBuildDate><item><title>LibreCAD</title><link>/LibreCAD.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
 Am Donnerstag, den &lt;strong&gt;03. September 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
 “Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag zum Themenabend startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. &lt;/p&gt;
@@ -23,7 +15,15 @@ Wir freuen uns auf einen spannenden Abend.
 Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Wed, 01 Jul 2015 22:30:00 +0200</pubDate><guid>tag:,2015-07-01:LibreCAD.html</guid><category>LibreCAD</category><category>CAD</category><category>Technische Zeichnung</category></item><item><title>KXStudio - Linux für Musiker</title><link>/kxstudio.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;2. Juli 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
+&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Fri, 07 Aug 2015 22:30:00 +0200</pubDate><guid>tag:,2015-08-07:LibreCAD.html</guid><category>LibreCAD</category><category>CAD</category><category>Technische Zeichnung</category></item><item><title>Sommer, Proxy, Sonnenschein</title><link>/sommer-proxy-sonnenschein.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+Am Donnerstag, den &lt;strong&gt;06. August 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
+“Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
+&lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!). Ein Vortragsthema steht derzeit nicht fest, allerdings soll der Installationsbeschleuniger (Proxy) offiziell in Betrieb genommen werden.&lt;/p&gt;
+&lt;p&gt;Wir freuen uns auf einen spannenden Abend.
+&lt;br&gt;
+Euer Linux-Werkstatt-Oldenburg Orgateam&lt;/p&gt;
+&lt;p&gt;Über den &lt;a href="/der-email-verteiler.html"&gt;Email-Verteiler&lt;/a&gt; oder das Kommentarfeld unten kann mit den Veranstaltern Kontakt aufgenommen werden.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://mainframe.io/contact.de.html" title="Anfahrt Mainframe"&gt;Anfahrtsbeschreibung&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">fraslo</dc:creator><pubDate>Sun, 05 Jul 2015 15:30:00 +0200</pubDate><guid>tag:,2015-07-05:sommer-proxy-sonnenschein.html</guid><category>Proxy</category></item><item><title>KXStudio - Linux für Musiker</title><link>/kxstudio.html</link><description>&lt;p&gt;Am Donnerstag den &lt;strong&gt;2. Juli 2015&lt;/strong&gt; lädt die Linux Werkstatt Oldenburg wieder zum gemeinsamen
 “Schrauben” im Mainframe ein.&lt;/p&gt;
 &lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit
 dem Titel: “KXStudio - Linux für Musiker&amp;quot; statt. Referent: Frank (Linux-Werkstatt-Oldenburg)&lt;/p&gt;
