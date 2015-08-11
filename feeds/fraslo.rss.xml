@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 07 Aug 2015 22:30:00 +0200</lastBuildDate><item><title>LibreCAD</title><link>/LibreCAD.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux-Werkstatt Oldenburg</title><link>/</link><description></description><atom:link href="/feeds/fraslo.rss.xml" rel="self"></atom:link><lastBuildDate>Fri, 07 Aug 2015 22:30:00 +0200</lastBuildDate><item><title>LibreCAD für technische Zeichnungen</title><link>/LibreCAD.html</link><description>&lt;p&gt;&lt;img src="/images/hardware_wird_gestellt.JPG" width="200px" align="right" /&gt;
 Am Donnerstag, den &lt;strong&gt;03. September 2015&lt;/strong&gt; lädt die Linux-Werkstatt Oldenburg wieder zum gemeinsamen 
 “Schrauben” im &lt;a href="http://www.kreativitaet-trifft-technik.de/" title="Homepage Mainframe"&gt;Hackspace Oldenburg 'Mainframe'&lt;/a&gt; ein.&lt;/p&gt;
 &lt;p&gt;Ab &lt;strong&gt;18.30 Uhr&lt;/strong&gt; ist Einlass (Den Eingang bei der Post benutzen!), der Vortrag zum Themenabend startet gegen &lt;strong&gt;19.00 Uhr&lt;/strong&gt;. &lt;/p&gt;
-&lt;p&gt;Um 19.00 Uhr findet ein 30 minütiger Vortrag, mit 
-dem Titel: &lt;strong&gt;LibreCAD&lt;/strong&gt; statt.&lt;/p&gt;
+&lt;p&gt;Um 19.00 Uhr findet ein Workshop mit dem Titel: &lt;strong&gt;LibreCAD&lt;/strong&gt; statt.&lt;/p&gt;
+&lt;p&gt;Teilnehmer können an Hand einer bereit gestellten Datei die Funktionen direkt selbst ausprobieren.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Erste Schritte im Umgang mit LibreCAD&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://librecad.org" title="LibreCAD Homepage"&gt;http://librecad.org&lt;/a&gt;
+&lt;li&gt;Installation und Konfiguration&lt;/li&gt;
+&lt;li&gt;Grundlegende Funktionen&lt;/li&gt;
+&lt;li&gt;Arbeiten mit und ohne Ebenen&lt;/li&gt;
+&lt;li&gt;Editierfunktionen wie kopieren, drehen, spiegeln, verkleinern, vergrößern u.m.&lt;/li&gt;
+&lt;li&gt;Demonstration des isometrischen Rasters für 3D-Zeichnungen&lt;/li&gt;
+&lt;li&gt;Zurücksetzen der Konfiguration&lt;/li&gt;
+&lt;li&gt;Homepage: &lt;a href="http://librecad.org" title="LibreCAD Homepage"&gt;http://librecad.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wiki.ubuntuusers.de/LibreCAD"&gt;http://wiki.ubuntuusers.de/LibreCAD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/LibreCAD"&gt;https://de.wikipedia.org/wiki/LibreCAD&lt;/a&gt;
 &lt;br&gt;
 &lt;br&gt;
 Wir freuen uns auf einen spannenden Abend.
